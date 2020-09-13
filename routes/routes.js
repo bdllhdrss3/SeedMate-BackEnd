@@ -11,8 +11,8 @@ const addSeed = require("./controllers/addSeed").addSeed
 router.post("/addUser", addSeed);
 
 router.get('/', async(req, res) => {
-    let seeds = await Seed.find({})
     try{
+      let seeds = await Seed.find({})
       res.send(seeds);
     }
     catch{
