@@ -1,0 +1,27 @@
+{
+  "name": "seedmate-backend",
+  "version": "1.0.0",
+  "description": "[![Codacy Badge](https://api.codacy.com/project/badge/Grade/e89ec56d4d05477ea64c523991dae0c9)](https://app.codacy.com/gh/BuildForSDGCohort2/SeedMate-BackEnd?utm_source=github.com&utm_medium=referral&utm_content=BuildForSDGCohort2/SeedMate-BackEnd&utm_campaign=Badge_Grade_Settings)",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-formidable": "^1.2.0",
+    "mongoose": "^5.10.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BuildForSDGCohort2/SeedMate-BackEnd.git"
+  },
+  "author": "abu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/BuildForSDGCohort2/SeedMate-BackEnd/issues"
+  },
+  "homepage": "https://github.com/BuildForSDGCohort2/SeedMate-BackEnd#readme"
+}
