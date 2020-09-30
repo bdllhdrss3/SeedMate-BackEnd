@@ -1,6 +1,7 @@
 const express = require('express');
 const mongoose = require('mongoose');
 const bodyParser = require('body-parser');
+const cors = require('cors');
 
 require("dotenv").config();
 const formidableMiddleware = require('express-formidable');
@@ -14,6 +15,9 @@ mongoose.connect(process.env.URI, {
 
 
 // middleware 
+app.use(cors({
+  ['http://localhost:3000','https://seedmate.netlify.app','http://localhost:5000','http://localhost:8080','http://localhost:8000']
+}));
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
 app.use(formidableMiddleware());
